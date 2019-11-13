@@ -4,34 +4,45 @@
 
 .App-header {
   background-color: #282c34;
-  /* min-height: 100vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #09d3ac;
 }
-
 h1 a {
- list-style-type: none;
- text-decoration: none;
- color: white;
+  color: white;
+  text-decoration: none;
+}
+nav {
+  overflow: auto;
+  justify-content: center;
 }
 nav a {
-  list-style-type: none;
   text-decoration: none;
+  display: flex;
+  flex-direction: row;
   color: white;
-  /* display: flex; */
-  /* flex-direction: row; */
-  /* align-items: center; */
+  width: 25%;
+  float: left;
+  font-size: 30px;
+  font-weight: bold;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-
+  background-color: #282c34;
+}
+body {
+  font-family: 'Oswald', sans-serif;
+}
+@media screen and (max-width: 500px) {
+  nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left; 
+  }
 }
 
