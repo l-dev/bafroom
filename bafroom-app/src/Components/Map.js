@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { throwStatement } from "@babel/types";
 
+
 const mapStyles = {
   map: {
     position: "absolute",
@@ -14,11 +15,12 @@ class CurrentLocation extends React.Component {
   constructor(props) {
     super(props);
     const { lat, lng } = this.props.initialCenter;
+    
     this.state = {
       currentLocation: {
         lat: lat,
         lng: lng
-      }
+      },
     };
   }
   componentDidUpdate(prevProps, prevState) {
