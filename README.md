@@ -12,7 +12,7 @@ https://infinite-inlet-94923.herokuapp.com/
 ## Planning Process
 
 
-<img align="left" width="400" height="300" src="">
+<img align="left" width="400" height="300" src="https://user-images.githubusercontent.com/54283215/69175389-87649e80-0ab8-11ea-8775-8282e9f66047.png">
 <img align="left" width="400" height="300" src=""><br />
 <br />
 <br />
