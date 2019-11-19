@@ -1,5 +1,7 @@
 import React, { Component } from "react";
+import { Link } from 'react-router-dom';
 import axios from "axios";
+import "./List.css"
 // import cors from "cors";
 
 class List extends Component {
@@ -11,7 +13,7 @@ class List extends Component {
     };
   }
   componentDidMount() {
-    this.getRestaurantsFromApi("Boston");
+    this.getRestaurantsFromApi("San Diego");
   }
   componentDidUpdate(prevProps, prevState) {
     if (this.props.searchLocationQuery !== prevProps.searchLocationQuery) {
@@ -47,12 +49,15 @@ class List extends Component {
       });
   };
   render() {
+     
     const bathroomList = this.state.results.map(result => {
-      console.log(result.alias);
+    //   console.log(result.id);
+      let pathname = `/detail/${result.id}`
       return (
+          
         <div>
 
-          <h2>{result.alias}</h2>
+          <h2><Link to={pathname}>{result.name}</Link></h2>
           <p>{result.location.address1}, {result.location.city}</p>
 
         </div>

@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { throwStatement } from "@babel/types";
-
+import List from "./List";
+import "./List.css"
 
 const mapStyles = {
   map: {
     position: "absolute",
-    width: "100%",
+    width: "70%",
     height: "100%"
   }
 };
@@ -15,14 +16,15 @@ class CurrentLocation extends React.Component {
   constructor(props) {
     super(props);
     const { lat, lng } = this.props.initialCenter;
-    
+
     this.state = {
       currentLocation: {
         lat: lat,
         lng: lng
-      },
+      }
     };
   }
+
   componentDidUpdate(prevProps, prevState) {
     if (prevProps.google !== this.props.google) {
       this.loadMap();
@@ -89,14 +91,18 @@ class CurrentLocation extends React.Component {
       });
     });
   }
+
   render() {
     const style = Object.assign({}, mapStyles.map);
     return (
-      <div>
+      <div >
         <div style={style} ref="map">
           Loading Map...
         </div>
         {this.renderChildren()}
+        <div className="column">
+          <List />
+        </div>
       </div>
     );
   }
@@ -107,8 +113,8 @@ export default CurrentLocation;
 CurrentLocation.defaultProps = {
   zoom: 12,
   initialCenter: {
-    lat: -1.2884,
-    lng: 36.8233
+    lat: 44.068203,
+    lng: -114.742043
   },
   centerAroundCurrentLocation: false,
   visible: true

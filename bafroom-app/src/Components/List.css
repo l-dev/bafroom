@@ -1,0 +1,51 @@
+h2 a {
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+h2 a:hover{
+    color: #00bfff
+}
+img {
+    width: 300px;
+    height: 200px;
+}
+
+.field{
+    width: 100%;
+    height: 56px;
+    border-radius: 4px;
+    position: relative;
+    background-color: rgba(5, 217, 255, 0.096);
+    transition: 0.3s all;
+}
+.field input {
+    width: 200px;
+   
+  }
+.review input{
+    height: 100px;
+    align-content:center;
+}
+
+.home {
+    padding-top: 40px;
+    width: 350px;
+    height: 500px;
+}
+.column {
+    float: right;
+    width: 25%;
+  
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .url{
+      font-size: 10px;
+  }

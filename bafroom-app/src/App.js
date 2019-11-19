@@ -2,10 +2,9 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Show from "./Components/Show";
 import List from "./Components/List";
-import About from "./Components/About";
 import Home from "./Components/Home"
-import Create from "./Components/Create"
 import Test from "./Components/test"
+import Detail from  "./Components/Detail"
 import "./App.css";
 
 
@@ -17,9 +16,9 @@ function App() {
         <h1><a href="/">BATHROOM LOCATOR</a></h1>
       </header>
       <nav>
+        
         <a href="/test">MAP</a>
-        <a href="/list">LIST</a> <a href="/create">ADD REVIEW</a>
-        <a href="/about">ABOUT</a>
+        <a href="/">HOME</a>
       </nav>
 
       <div className="main">
@@ -27,11 +26,11 @@ function App() {
           <Route path="/test" component={Test}/>
           <Route exact path="/maps" component={Show} />
           <Route exact path="/list" component={List} />
-          <Route exact path="/about" component={About} />
           <Route exact path="/" component={Home} />
-          <Route path="/create" component={Create} />
+          <Route path ="/detail/:id" component={Detail}/>
         </Switch>
       </div>
+     
     </div>
   );
 }
