@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/bafroom/static/css/main.f80286e6.chunk.css",
+    "main.js": "/bafroom/static/js/main.1eb46b73.chunk.js",
+    "main.js.map": "/bafroom/static/js/main.1eb46b73.chunk.js.map",
+    "runtime-main.js": "/bafroom/static/js/runtime-main.833fdcea.js",
+    "runtime-main.js.map": "/bafroom/static/js/runtime-main.833fdcea.js.map",
+    "static/js/2.df6a762e.chunk.js": "/bafroom/static/js/2.df6a762e.chunk.js",
+    "static/js/2.df6a762e.chunk.js.map": "/bafroom/static/js/2.df6a762e.chunk.js.map",
+    "index.html": "/bafroom/index.html",
+    "precache-manifest.dba98b7aa4d021090cb706b1c1fde89e.js": "/bafroom/precache-manifest.dba98b7aa4d021090cb706b1c1fde89e.js",
+    "service-worker.js": "/bafroom/service-worker.js",
+    "static/css/main.f80286e6.chunk.css.map": "/bafroom/static/css/main.f80286e6.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.833fdcea.js",
+    "static/js/2.df6a762e.chunk.js",
+    "static/css/main.f80286e6.chunk.css",
+    "static/js/main.1eb46b73.chunk.js"
+  ]
+}
