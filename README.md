@@ -2,8 +2,7 @@
 
 ### Introduction
 Ever been to a new city and can't find a restroom? Well, look no futher! The bathroom locator application helps you locate the nearest bathroom to you and will have reviews on the bathroom's state.</br>
-#### Deployed Application:
-https://infinite-inlet-94923.herokuapp.com/
+
 ### Features
 - Locate current location and bathrooms with markers with Google Maps API
 - Have a list of restaurants and the addressess with the Yelp API
