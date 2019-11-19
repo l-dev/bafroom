@@ -1,9 +1,9 @@
-# BATHROOM LOCATOR! <img align="left" width="100" height="100" src="https://images.vexels.com/media/users/3/128924/isolated/preview/9e6b09c2ff5a40a643785a345647a32b-travel-airport-bathroom-round-icon-by-vexels.png">
+# BATHROOM LOCATOR! <img align="left" width="100" height="100" src="http://instagshop.info/wp-content/uploads/2018/12/bathroom-icon-bathroom-icon-bathroom-icon-bathroom-icon-symbol-nu-print-this-out-put-bathroom-icon-bathroom-icon-bathroom-man-icon-vector.jpg">
 
 ### Introduction
 Ever been to a new city and can't find a restroom? Well, look no futher! The bathroom locator application helps you locate the nearest bathroom to you and will have reviews on the bathroom's state.</br>
 #### Deployed Application:
-
+https://infinite-inlet-94923.herokuapp.com/
 ### Features
 - Locate current location and bathrooms with markers with Google Maps API
 - Have a list of restaurants and the addressess with the Yelp API
