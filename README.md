@@ -12,8 +12,8 @@ https://infinite-inlet-94923.herokuapp.com/
 ## Planning Process
 
 ### Wireframe -
-<img align="left" width="400" height="300" src="https://user-images.githubusercontent.com/54283215/67162853-2e6ce380-f31d-11e9-858a-3d03ed7c079c.png">
-<img align="left" width="400" height="300" src="https://user-images.githubusercontent.com/54283215/67162854-33319780-f31d-11e9-9071-d236f8781575.png"><br />
+<img align="left" width="400" height="300" src="">
+<img align="left" width="400" height="300" src=""><br />
 <br />
 <br />
 <br />
